@@ -3,6 +3,11 @@
   "@id" : "https://Crobatty.github.io/TestProject/manifests/trialmanifest3.json",
   "@type" : "sc:Manifest",
   "label" : "Stinky baby",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/137955937/f10aa0131f4f91a2d8f625c4c829a9a2/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
   "metadata" : [ ],
   "description" : [ {
     "@value" : "[Black cat wearing a flower crown]",
@@ -43,6 +48,11 @@
           "width" : 2496
         },
         "on" : "http://56e14397-e677-4029-9f67-9bc06d05986c"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://crobatty.github.io/TestProject/annotations/070ae543fdeeeb67e7f9325afeaf640b.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
       } ],
       "related" : ""
     }, {
