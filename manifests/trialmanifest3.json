@@ -48,7 +48,7 @@
     }, {
       "@id" : "http://35bb7def-b220-4752-b6cd-351dc1498576",
       "@type" : "sc:Canvas",
-      "label" : "Empty canvas",
+      "label" : "Lily Lullaby canvas",
       "height" : 1080,
       "width" : 1080,
       "images" : [ {
@@ -74,7 +74,7 @@
     }, {
       "@id" : "http://6348a8f8-f6e5-4d10-9dfe-d9467be9547e",
       "@type" : "sc:Canvas",
-      "label" : "Empty canvas",
+      "label" : "Volvo Canvas",
       "height" : 4032,
       "width" : 3024,
       "images" : [ {
