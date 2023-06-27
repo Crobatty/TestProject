@@ -104,7 +104,7 @@
     "@type" : "sc:Range",
     "label" : "Table of Content",
     "viewingHint" : "top",
-    "ranges" : [ "http://example.org/iiif/book1/range/first", "http://example.org/iiif/book1/range/second", "http://example.org/iiif/book1/range/last" ]
+    "ranges" : [ "http://example.org/iiif/book1/range/first", "http://example.org/iiif/book1/range/second", "http://example.org/iiif/book1/range/final" ]
   }, {
     "@id" : "http://example.org/iiif/book1/range/first",
     "@type" : "sc:Range",
@@ -116,9 +116,9 @@
     "label" : "Second Page",
     "canvases" : [ "http://35bb7def-b220-4752-b6cd-351dc1498576" ]
   }, {
-    "@id" : "http://example.org/iiif/book1/range/last",
+    "@id" : "http://example.org/iiif/book1/range/final",
     "@type" : "sc:Range",
-    "label" : "Last Page",
+    "label" : "Final Page",
     "canvases" : [ "http://6348a8f8-f6e5-4d10-9dfe-d9467be9547e" ]
   } ]
 }
