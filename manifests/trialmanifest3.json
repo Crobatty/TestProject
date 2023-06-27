@@ -1,0 +1,124 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Crobatty.github.io/TestProject/manifests/trialmanifest3.json",
+  "@type" : "sc:Manifest",
+  "label" : "Stinky baby",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Black cat wearing a flower crown]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Photographed by XML]",
+  "sequences" : [ {
+    "@id" : "http://8848f658-08dd-4f9c-a999-21967f86c9ba",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en",
+      "viewingDirection" : "left-to-right",
+      "viewingHint" : "paged"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://56e14397-e677-4029-9f67-9bc06d05986c",
+      "@type" : "sc:Canvas",
+      "label" : "Bigfoot canvas",
+      "height" : 2371,
+      "width" : 2496,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://27ec1831-17aa-47c4-8568-77acd7eac004",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/bigfoot-flower-crown/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/bigfoot-flower-crown",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2371,
+          "width" : 2496
+        },
+        "on" : "http://56e14397-e677-4029-9f67-9bc06d05986c"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://35bb7def-b220-4752-b6cd-351dc1498576",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 1080,
+      "width" : 1080,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://a25fa204-b272-439f-bf3f-98be312f0de2",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/240589464-181442794057495-8486911132384899985-n/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/240589464-181442794057495-8486911132384899985-n",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1080,
+          "width" : 1080
+        },
+        "on" : "http://35bb7def-b220-4752-b6cd-351dc1498576"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://6348a8f8-f6e5-4d10-9dfe-d9467be9547e",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 4032,
+      "width" : 3024,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://69581f0b-0c60-4f99-a62c-a778f7b6064e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/volvo-portrait/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/volvo-portrait",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 4032,
+          "width" : 3024
+        },
+        "on" : "http://6348a8f8-f6e5-4d10-9dfe-d9467be9547e"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/first", "http://example.org/iiif/book1/range/second" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/first",
+    "@type" : "sc:Range",
+    "label" : "First Page",
+    "canvases" : [ "http://56e14397-e677-4029-9f67-9bc06d05986c" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/second",
+    "@type" : "sc:Range",
+    "label" : "Second Page",
+    "canvases" : [ "http://35bb7def-b220-4752-b6cd-351dc1498576" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/last",
+    "@type" : "sc:Range",
+    "label" : "Last Page",
+    "canvases" : [ "http://6348a8f8-f6e5-4d10-9dfe-d9467be9547e" ]
+  } ]
+}
