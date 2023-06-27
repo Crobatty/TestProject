@@ -1,0 +1,43 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Blep\n&nbsp;\n&nbsp;",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Blep</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "blep",
+      "@type" : "oa:Tag",
+      "chars" : "blep"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/137955937",
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "dcterms:created" : "2023-06-27T23:09:25",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1687907365042",
+    "dcterms:modified" : "2023-06-27T23:11:42",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://Crobatty.github.io/TestProject/manifests/trialmanifest3.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1240,1286,165,126"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1240.4704,1286.48701h82.5616v0h82.5616v63.208v63.208h-82.5616h-82.5616v-63.208z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_3020043f-8e25-4fd5-b23a-3b5ac39c85a7\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1.92\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://56e14397-e677-4029-9f67-9bc06d05986c"
+    } ]
+  } ],
+  "@id" : "https://Crobatty.github.io/TestProject/annotations/070ae543fdeeeb67e7f9325afeaf640b.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
