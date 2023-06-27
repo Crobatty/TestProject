@@ -104,7 +104,7 @@
     "@type" : "sc:Range",
     "label" : "Table of Content",
     "viewingHint" : "top",
-    "ranges" : [ "http://example.org/iiif/book1/range/first", "http://example.org/iiif/book1/range/second" ]
+    "ranges" : [ "http://example.org/iiif/book1/range/first", "http://example.org/iiif/book1/range/second", "http://example.org/iiif/book1/range/last" ]
   }, {
     "@id" : "http://example.org/iiif/book1/range/first",
     "@type" : "sc:Range",
