@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 78,
+    "height" : 75
+  }, {
+    "width" : 156,
+    "height" : 149
+  }, {
+    "width" : 312,
+    "height" : 297
+  }, {
+    "width" : 624,
+    "height" : 593
+  }, {
+    "width" : 1248,
+    "height" : 1186
+  }, {
+    "width" : 2496,
+    "height" : 2371
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 2496,
+  "@id" : "https://Crobatty.github.io/TestProject/images/BigfootFlowerCrown",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 2371
+}
