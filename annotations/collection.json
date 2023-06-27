@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://Crobatty.github.io/TestProject/annotations/070ae543fdeeeb67e7f9325afeaf640b.json" ],
+  "@id" : "https://Crobatty.github.io/TestProject/annotations/collection.json",
+  "label" : "All annotations loaded in Crobatty/TestProject project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
